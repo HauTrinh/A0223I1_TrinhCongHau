@@ -1,23 +1,30 @@
 package com.ss2_loop.bai_tap;
 
-import java.util.Scanner;
 
+
+class Bike{
+    int id;
+    String name;
+    String gioitinh;
+
+   
+    Bike(int id, String name, String gioitinh){
+        this.id = id;
+        this.name = name;
+        this.gioitinh = gioitinh;
+    }
+    Bike(){}
+    public void display(){
+        System.out.println("id : "+ id);
+        System.out.println("name : "+ name);
+        System.out.println("gioi tinh : "+ gioitinh);
+    }
+}
 public class Test {
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
-            System.out.print("Enter the height: ");
-            int height = new Scanner(System.in).nextInt();
-
-            for (int i = 0; i < height; i++) {
-                for (int j = 0; j < height - i - 1; j++) {
-                    System.out.print(" ");
-                }
-                for (int j = 0; j < 2 * i + 1; j++) {
-                    System.out.print("*");
-                }
-                System.out.println();
-            }
-        System.out.println();
+        Bike bike_3 = new Bike(15,"tuan","nam");
+        bike_3.display();
     }
 }
 
