@@ -1,30 +1,35 @@
 package com.ss2_loop.bai_tap;
 
 
-
-class Bike{
-    int id;
+class Student {
+    int rollno;
     String name;
-    String gioitinh;
+    static String college = "BachKhoa";
 
-   
-    Bike(int id, String name, String gioitinh){
-        this.id = id;
-        this.name = name;
-        this.gioitinh = gioitinh;
+    static void change() {
+        college = "QuocGia";
     }
-    Bike(){}
-    public void display(){
-        System.out.println("id : "+ id);
-        System.out.println("name : "+ name);
-        System.out.println("gioi tinh : "+ gioitinh);
+
+    Student(int r, String n) {
+        rollno = r;
+        name = n;
     }
+
+    void display() {
+        System.out.println(rollno + " " + name + " " + college);
+    }
+
 }
 public class Test {
     public static void main(String[] args){
 
-        Bike bike_3 = new Bike(15,"tuan","nam");
-        bike_3.display();
+        Student.change();
+        Student s1 = new Student(111, "Hoang");
+        Student s2 = new Student(222, "Thanh");
+        Student s3 = new Student(333, "Nam");
+        s1.display();
+        s2.display();
+        s3.display();
     }
 }
 
