@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 public class RegexPhone {
     private static final String PHONE_REGEX = "^\\d{10}$";
     // ^\\(\\d{2}\\)-\\(0\\d{9}\\)$ VD: (84)-(0978489648)
+    //Regex name: ^[A-Za-z]{4,10}$ - 4 -10 kí tự
 
     public void validatePhoneNumber(String phone) {
         boolean isValidPhone = Pattern.matches(PHONE_REGEX, phone);
