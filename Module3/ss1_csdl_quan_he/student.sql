@@ -21,4 +21,3 @@ country varchar(45)
 INSERT INTO teacher(id,`name`, age, country) 
 VALUE (1,"Hậu",22, "QN"),
 	  (2,"Công",20, "DN");
-select * from teacher
