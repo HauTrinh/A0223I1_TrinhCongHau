@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13bbba98-8c8e-4003-96e0-17e906a8bd0c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss10_list/bai_tap/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss10_list/bai_tap/.idea/bai_tap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss10_list/bai_tap/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss10_list/bai_tap/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss10_list/bai_tap/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss10_list/bai_tap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss15_exception_debug/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss15_exception_debug/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss15_exception_debug/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss15_exception_debug/.idea/ss15_exception_debug.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss15_exception_debug/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss15_exception_debug/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss5_access_modifier_static/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss5_access_modifier_static/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss5_access_modifier_static/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss5_access_modifier_static/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss5_access_modifier_static/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module2/src/com/ss5_access_modifier_static/ss5_access_modifier_static.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/.gradle/7.1.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/.gradle/7.1.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/.gradle/7.1.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/.gradle/7.1.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/src/main/java/com/example/bai_1/controller/StudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/src/main/java/com/example/bai_1/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/src/main/java/com/example/bai_1/repository/IStudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/src/main/java/com/example/bai_1/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/src/main/java/com/example/bai_1/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/src/main/java/com/example/bai_1/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/src/main/webapp/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss11_mvc/bai_1/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/src/main/java/com/example/demojsp/CacularServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/src/main/java/com/example/demojsp/DisCountServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/src/main/java/com/example/demojsp/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/src/main/java/com/example/demojsp/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/src/main/java/com/example/demojsp/ServerTimeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/src/main/java/com/example/demojsp/TranslationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/src/main/webapp/dictionary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/src/main/webapp/discount.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss9_jsp/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/.gradle/7.1.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/.gradle/7.1.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/.gradle/7.1.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/.gradle/7.1.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/src/main/java/com/example/bai_1_tien_te/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/src/main/webapp/converter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/src/main/webapp/dictionary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_1_tien_te/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.gradle/7.1.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.gradle/7.1.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.gradle/7.1.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.gradle/7.1.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/build/classes/java/main/com/example/bai_2_customer/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/build/classes/java/main/com/example/bai_2_customer/DisplayServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/build/libs/bai_2_customer-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/src/main/java/com/example/bai_2_customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/src/main/java/com/example/bai_2_customer/DisplayServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_2_customer/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_3_khach_hang/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_3_khach_hang/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_3_khach_hang/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_3_khach_hang/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_3_khach_hang/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_3_khach_hang/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_3_khach_hang/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_3_khach_hang/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_3_khach_hang/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_3_khach_hang/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_3_khach_hang/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_3_khach_hang/src/main/java/com/example/bai_3_khach_hang/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_3_khach_hang/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_3_khach_hang/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_4_calculate/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_4_calculate/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_4_calculate/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_4_calculate/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_4_calculate/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_4_calculate/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_4_calculate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_4_calculate/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_4_calculate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_4_calculate/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_4_calculate/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_4_calculate/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_4_calculate/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_4_calculate/src/main/java/com/example/bai_4_calculate/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_4_calculate/src/main/java/com/example/bai_4_calculate/CalculatorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module3/ss_10_jsp_jstl/bai_4_calculate/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/.gradle/7.1.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/.gradle/7.1.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/.gradle/7.1.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/.gradle/7.1.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/src/main/java/com/codegyn/bai_1/controller/CalculatorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/src/main/webapp/WEB-INF/views/calculator.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_1/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bai_2/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bai_2/controller/DictionaryServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bai_2/service/DictionaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dictionary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2VkbRSmWBGxSdtnbNj09KA7lkXg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CodeGym\Module\Module4\ss1_springMVC\bai_2\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.21" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="Gradle : com.example : bai_2-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="a85f6e4b-1736-4b85-b20d-a1e6399335af" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57450" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.example : bai_2-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13bbba98-8c8e-4003-96e0-17e906a8bd0c" name="Changes" comment="" />
+      <created>1695383018403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695383018403</updated>
+      <workItem from="1695383020050" duration="945000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
