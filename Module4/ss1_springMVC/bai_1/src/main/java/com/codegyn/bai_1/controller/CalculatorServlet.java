@@ -2,22 +2,19 @@ package com.codegyn.bai_1.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 public class CalculatorServlet {
-    @RequestMapping(value = "/calculator", method = RequestMethod.GET)
+   @GetMapping("calculator")
     public String showFormExchange() {
         return "calculator";
     }
 
-    @RequestMapping(value = "/calculator", method = RequestMethod.POST)
+   @PostMapping("calculator")
     public String exchange(@RequestParam double usd, Model model) {
         double usd2 = usd * 20000;
-        double vnd2 = usd2;
-        model.addAttribute("vnd", vnd2);
+        model.addAttribute("vnd", usd2);
         return "calculator";
     }
 }
