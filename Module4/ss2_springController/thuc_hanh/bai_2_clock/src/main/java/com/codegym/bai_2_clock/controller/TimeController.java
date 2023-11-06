@@ -16,10 +16,12 @@ public class TimeController {
         // Lấy ra thời gian hiện tại
         Date date = new Date();
 
-        // Lấy ra time zone hiện tại
+        // Lấy ra múi giờ hiện tại trên mt
         TimeZone local = TimeZone.getDefault();
-        // Lấy ra time zone của 1 thành phố cụ thể
+
+        // Lấy ra múi giờ của 1 thành phố cụ thể
         TimeZone locale = TimeZone.getTimeZone(city);
+
         // Tính thời gian hiện tại của một thành phố cụ thể
         long locale_time = date.getTime() +
                 (locale.getRawOffset() - local.getRawOffset());

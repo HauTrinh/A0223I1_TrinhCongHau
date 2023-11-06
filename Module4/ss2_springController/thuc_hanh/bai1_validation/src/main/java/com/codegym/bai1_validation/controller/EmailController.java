@@ -19,7 +19,10 @@ public class EmailController {
         pattern = Pattern.compile(EMAIL_REGEX);
     }
 
-
+    private boolean validate(String regex) {
+        matcher = pattern.matcher(regex);
+        return matcher.matches();
+    }
     @GetMapping("/index")
     String getIndex() {
         return "index";
@@ -35,10 +38,5 @@ public class EmailController {
 
         model.addAttribute("email", email);
         return "success";
-    }
-
-    private boolean validate(String regex) {
-        matcher = pattern.matcher(regex);
-        return matcher.matches();
     }
 }

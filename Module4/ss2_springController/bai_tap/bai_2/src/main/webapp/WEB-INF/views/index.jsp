@@ -14,6 +14,7 @@
         <hr>
         <input type="number" id="tomato" name="n2">
         <label for="tomato"> Nhập số thứ hai </label><br>
+
         <input type="hidden" name="operator" id="operator">
     </div>
 
