@@ -44,6 +44,14 @@ public class MedicalController {
         return modelAndView;
     }
 
+    @PostMapping
+    public String save(@ModelAttribute("createM") Medical medical, RedirectAttributes redirectAttributes) {
+        medicalService.save(medical);
+        redirectAttributes.addFlashAttribute("mess", "Create successful");
+        return "redirect:/home";
+    }
+
+
     @GetMapping("/edit/{id}")
     public String edit(@PathVariable(required = false) int id, Model model) {
         model.addAttribute("edit", medicalService.findById2(id));
@@ -54,14 +62,6 @@ public class MedicalController {
     public String update(@ModelAttribute("edit") Medical medical, RedirectAttributes redirectAttributes) {
         medicalService.update(medical);
         redirectAttributes.addFlashAttribute("mess", "Update successful");
-        return "redirect:/home";
-    }
-
-
-    @PostMapping
-    public String save(@ModelAttribute("createM") Medical medical, RedirectAttributes redirectAttributes) {
-        medicalService.save(medical);
-        redirectAttributes.addFlashAttribute("mess", "Create successful");
         return "redirect:/home";
     }
 
