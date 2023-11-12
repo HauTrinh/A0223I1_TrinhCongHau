@@ -17,16 +17,6 @@ public class StudentController {
     @Autowired
     private IStudentService studentService;
 
-//    @ModelAttribute("classList")
-//    public String[] getListStudent(){
-//        return new String[]{"A02","A03","A04"};
-//    }
-//
-//    @ModelAttribute("languages")
-//    public String[] getListLanguage(){
-//        return new String[]{"JS","Java","PHP"};
-//    }
-
     @GetMapping
     public ModelAndView showList(){
         List<Student> studentList = studentService.findAll();
