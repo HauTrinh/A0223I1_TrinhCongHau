@@ -16,7 +16,7 @@ public class PictureRepository implements IPictureRepository{
 
     @Override
     public List<Picture> findAll() {
-        TypedQuery<Picture> typedQuery = entityManager.createQuery("from Picture", Picture.class);
+        TypedQuery<Picture> typedQuery = entityManager.createQuery("select p from Picture p", Picture.class);
         return typedQuery.getResultList();
     }
 

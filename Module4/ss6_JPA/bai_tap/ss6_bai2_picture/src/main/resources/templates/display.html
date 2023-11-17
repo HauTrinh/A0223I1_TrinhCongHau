@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .content{
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+        .img{
+            text-align: center;
+        }
+        .comment{
+            /*display: flex;*/
+        }
+    </style>
+</head>
+<body>
+<div class="img">
+    <img id="sw"
+         src="https://editors.dexerto.com/wp-content/uploads/2023/06/08/Is-Silver-Wolf-worth-pulling-Honkai-Star-Rail.jpg">
+</div>
+<div class="content">
+
+    <form th:object="${picture}" action="/create" method="post">
+        <select th:field="*{point}">
+            <option value="">---Cho điểm---</option>
+            <option th:each="item:${listPoint}" th:value="${item}" th:text="${item}"></option>
+        </select><br>
+        <div class="mb-3">
+            <label class="form-label">Author</label>
+            <input class="form-control" th:field="*{author}" placeholder="Author name">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Content</label>
+            <textarea style="height: 100px" class="form-control" th:field="*{feedback}" placeholder="feedback"></textarea>
+        </div>
+        <input type="hidden" th:field="*{like}">
+        <input type="hidden" th:field="*{dislike}">
+        <button class="btn btn-primary">Comment</button></br>
+    </form>
+
+    <div th:each="comment:${Commentpage}">
+        <hr>
+        <div class="comment">
+            <div>
+                <p2 style="font-weight: bold" th:text="${comment.author}"></p2>
+            </div>
+            <div>
+                Đánh giá bức ảnh<br>
+                Điểm:
+                <p2 th:text="${comment.point}"></p2><br>
+                Feedback:
+                <p2 th:text="${comment.feedback}"></p2><br>
+                Lượt thích:
+                <p2 th:text="${comment.like}">  </p2>
+                <a th:href="@{/like/__${comment.id}__}" class="btn btn-primary">Like</a><br>
+                Không thích:
+                <p2 th:text="${comment.dislike}"></p2>
+                <a th:href="@{/dislike/__${comment.id}__}" class="btn btn-danger">Dislike</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    // let query = 'https://api.nasa.gov/planetary/apod?api_key=4u1sOIPRMS0zaNQzGjgc0KKPpjhPnuXi7Whk9sBp';
+    // let request = new XMLHttpRequest();
+    // request.open('GET', query);
+    // request.onload = function() {
+    //     if (request.status === 200) {
+    //         let response = JSON.parse(request.responseText);
+    //         document.getElementById('img-of-the-day').setAttribute('src', response.url);
+    //     }
+    // };
+    // request.send();
+    // function likeFunction() {
+    //     likeCount.value = Number.parseInt(likeCount.value) +1;
+    //     resultLike.innerHTML = likeCount.value;
+    // }
+    //
+    // function disLikeFunction() {
+    //     dislikeCount.value = Number.parseInt(dislikeCount.value) +1;
+    //     resultDisLike.innerHTML = dislikeCount.value;
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
