@@ -90,9 +90,7 @@
             <select id="category" style="height: 50px; width: 60%" class="form-select form-control"
                     required="required" name="cid" th:field="*{category}">
                 <option value="">Choose a category</option>
-                <th:block th:each="c : ${categories}">
-                    <option th:value="${c.id}" th:text="${c.name}"></option>
-                </th:block>
+                <option th:each="c : ${categories}" th:value="${c.id}" th:text="${c.name}"></option>
             </select>
         </div>
 

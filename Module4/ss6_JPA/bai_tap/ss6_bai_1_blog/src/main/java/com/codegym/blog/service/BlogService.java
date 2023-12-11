@@ -4,13 +4,12 @@ import com.codegym.blog.model.Blog;
 import com.codegym.blog.repository.IBlogRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import javax.persistence.TypedQuery;
 import javax.transaction.Transactional;
-import java.util.List;
+
 
 @Service
 public class BlogService implements IBlogService {
@@ -18,9 +17,10 @@ public class BlogService implements IBlogService {
    private IBlogRepository iBlogRepository;
 
     @Override
-    public List<Blog> findAll() {
-        return iBlogRepository.findAll();
+    public Page<Blog> findAll(Pageable pageable, String author, String headerOfBlog) {
+        return iBlogRepository.findBlogByAuthorContainingOrHeaderOfBlogContaining(pageable,author, headerOfBlog);
     }
+
     @Override
     @Transactional
     public boolean add(Blog blog) {
@@ -31,13 +31,18 @@ public class BlogService implements IBlogService {
     @Override
     @Transactional
     public Blog update(Blog blog) {
-        return iBlogRepository.saveAndFlush(blog);
+        return iBlogRepository.save(blog);
     }
 
     @Override
     @Transactional
     public void deleteBlogById(int id) {
         iBlogRepository.deleteById(id);
+    }
+
+    @Override
+    public Page<Blog> getBlogByCat(Pageable pageable, int id) {
+        return iBlogRepository.findByCategory_Id(pageable, id);
     }
 
     @Override

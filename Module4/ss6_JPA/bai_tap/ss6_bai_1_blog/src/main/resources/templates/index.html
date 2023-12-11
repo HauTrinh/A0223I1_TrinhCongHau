@@ -103,17 +103,27 @@
 <h3 class="text-center">List blog</h3>
 <section>
     <div class="listcategory">
-    <a class="btn btn-info" href="/list">Show Catehory</a>
+        <a class="btn btn-info" href="/list">Show Catehory</a>
     </div>
 </section>
 <br/>
 <section>
     <div class="add">
-        <a class="btn btn-info" href="/create"> Thêm mới</a>
+        <a class="btn btn-info" href="/create">Thêm mới</a>
     </div>
-    <form action="/blog/search" class="search-container" method="get">
-        <input th:value="${param.keyword}" name="keyword" type="text" id="search-bar" placeholder="Search ...">
+<!--    SEARCH-->
+    <form action="/home" class="search-container" method="get">
+        <input th:value="${searchName}" name="searchName" type="text" id="search-bar" placeholder="Search ...">
         <input class="btn btn-outline-success" type="submit" value="Search">
+    </form>
+</section>
+<section>
+    <form id="fi" action="/home" class="search-container" method="get">
+        <select id="key" style="height: 50px; width: 60%" class="form-select form-control"
+                required="required" name="key" onchange="document.getElementById('fi').submit()">
+            <option value="0">All</option>
+            <option th:each="c : ${categories}" th:selected="${c.id == key}" th:value="${c.id}" th:text="${c.name}"></option>
+        </select>
     </form>
 </section>
 <br/>
@@ -152,7 +162,11 @@
     </tr>
     </tbody>
 </table>
-
+<div>
+    <a th:if="${blogs.hasPrevious()}" th:href="@{/home(page=${blogs.number+(-1)},searchName=${searchName})}">Previous</a>
+    <span th:text="${blogs.number + 1 }"></span><span th:text="${blogs.totalPages}"></span>
+    <a th:if="${blogs.hasNext()}" th:href="@{/home(page=${blogs.number+1},searchName=${searchName})}">Next</a>
+</div>
 <div class="notify">
     <div th:if="${success}">
         <span th:text="${success}"></span>
@@ -193,9 +207,6 @@
         document.getElementById("name_delete").innerText = name;
     }
 
-    function fncSearch(val) {
-        document.getElementById("aSearch").href = "/blog?q=" + val;
-    }
 </script>
 </body>
 
