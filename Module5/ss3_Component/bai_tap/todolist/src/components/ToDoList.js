@@ -10,11 +10,14 @@ class ToDoList extends Component {
   }
 
   handleChange = (event) => {
-    this.setState({ item: event.target.value });
-  }
+    this.setState({ item: event.target.value }); // sẽ lấy giá trị mà người dùng đã nhập vào textfield, event.target trả về phần tử DOM đã kích hoạt sự kiện, và .value lấy giá trị của phần tử đó
+    console.log("handleChange " + this.state.item);
+  } // handleChange là một phương thức xử lý sự kiện onChange của textfield.
+    // Khi giá trị của textfield thay đổi, handleChange sẽ cập nhật state.item để phản ánh giá trị mới
 
   handleAddItem = () => {
     if (this.state.item !== '') {
+      console.log("handleAddItem " + this.state.item);
       this.setState(prevState => ({
         list: [...prevState.list, prevState.item],
         item: ''

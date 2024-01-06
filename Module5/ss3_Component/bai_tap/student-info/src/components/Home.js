@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import Logout from './Logout';
+import Login from './Login';
 
 class Home extends Component{
     constructor (props) {
@@ -23,7 +23,7 @@ class Home extends Component{
     
     render () {
       const { isLoggedIn } = this.state;
-      if (isLoggedIn) return (<Logout onLogOut={this.handleLogOut} />)
+      if (isLoggedIn) return (<Login onLogOut={this.handleLogOut} />)
       return (
         <div style={{textAlign: 'center'}}>
           <div>

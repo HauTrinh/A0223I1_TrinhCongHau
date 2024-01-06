@@ -7,13 +7,23 @@ class InDecrease extends Component {
         };
     }
 
-    increase = () =>{
-        this.setState({ number: this.state.number +1});
+    // increase = () =>{
+    //     console.log(this.state.number);
+    //     this.setState({ number: this.state.number +1});  
+    // }
+
+    //Truyền functrion cho setState
+    increase = () => {
+        this.setState((state) => {
+            return { number: state.number + 1 };
+        })
         console.log(this.state.number);
     }
+
+    // truyền object
     decrease = () =>{
-        this.setState({ number: this.state.number - 1});
         console.log(this.state.number);
+        this.setState({ number: this.state.number - 1});     
     }
     render() {
         return(

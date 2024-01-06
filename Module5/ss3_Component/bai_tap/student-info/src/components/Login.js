@@ -1,15 +1,14 @@
 import { Component } from 'react';
+import StudentList from './StudentList';
  
-class Logout extends Component{
-  // componentWillUnmount() {
-  //   alert('Goodbye!!!');
-  // }
+class Login extends Component{
 
   render () {
     return (
       <div style={{textAlign: 'center'}}>
         <div>
-            <h1>Welcome</h1>
+            <h1>Chào mừng đã login</h1>
+            <StudentList/>
             <button onClick={this.props.onLogOut}>Log out</button>
         </div>
       </div>
@@ -17,4 +16,4 @@ class Logout extends Component{
   }
 }
  
-export default Logout;
+export default Login;
